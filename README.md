@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ofxKinectV2
 ===========
 
@@ -19,3 +20,11 @@ Notes:
 
 
 Huge thanks to @christiankerl for a lot of the recent changes that made this work well on OS X. 
+=======
+Cinder-Freenect2
+================
+
+Cinder block for Kinect v2 based on freenect2
+
+WIP porting ofxKinect2 to Cinder
+>>>>>>> origin/master
