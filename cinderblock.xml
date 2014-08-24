@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cinder>
+<block
+	name="Cinder-Freenect2"
+	id="us.onewaytheater.freenectv2"
+	git="git://github.com/cinder/Cinder-Kinect.git"
+	author="Cinder Project"
+	license="Apache 2.0, LGPL"
+	library="http://openkinect.org/"
+	summary="Wraps libfreenect for the Microsoft Kinect V2."
+	>
+	<supports os="macosx" />
+    <headerPattern>lib/libfreenect2/include/*.h</headerPattern>
+    <headerPattern>lib/libusb/include/libusb/*.h</headerPattern>
+    <headerPattern>lib/libusb/include/libusb/os/*.h</headerPattern>
+    <headerPattern>lib/protonect/include/libfreenect2/*.h</headerPattern>
+    <headerPattern>lib/protonect/include/libfreenect2/usb/*.h</headerPattern>
+    <headerPattern>lib/protonect/src/*.h</headerPattern>
+    <headerPattern>lib/protonect/src/tinythread/*.h</headerPattern>
+    <sourcePattern>lib/protonect/*.cpp</sourcePattern>
+    <sourcePattern>lib/protonect/src/*.cpp</sourcePattern>
+    <sourcePattern>lib/protonect/src/shader/*.cpp</sourcePattern>
+    <sourcePattern>lib/protonect/src/tinythread/*.cpp</sourcePattern>
+    
+    <copyExclude>samples</copyExclude>
+	<header>src/CinderKinectV2.h</header>
+	<source>src/CinderKinectV2.cpp</source>
+	<includePath>src</includePath>
+	<includePath>lib/protonect/include</includePath>
+	<includePath system="true">src/freenect</includePath>
+	<sourcePattern>src/freenect/*.c</sourcePattern>
+	<platform os="macosx">
+		<framework sdk="true">IOKit.framework</framework>
+		<staticLibrary>lib/libusb/lib/osx/usb-1.0.0-superspeed.a</staticLibrary>
+	</platform>
+</block>
+<template>templates/Basic GL/template.xml</template>
+</cinder>
