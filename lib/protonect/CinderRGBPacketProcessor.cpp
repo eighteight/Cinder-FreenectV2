@@ -10,7 +10,7 @@
 namespace libfreenect2
 {
 
-ofRGBPacketProcessor::CinderRGBPacketProcessor(){
+CinderRGBPacketProcessor::CinderRGBPacketProcessor(){
     newFrame();
 }
 
@@ -22,19 +22,19 @@ void CinderRGBPacketProcessor::newFrame(){
     frame = new Frame(1920, 1080, 3);
 }
 
-void ofRGBPacketProcessor::process(const libfreenect2::RgbPacket &packet){
-    ofBuffer tmp;
-    tmp.set( ( char * )packet.jpeg_buffer, (unsigned int)packet.jpeg_buffer_length);
+void CinderRGBPacketProcessor::process(const libfreenect2::RgbPacket &packet){
+//    ofBuffer tmp;
+//    tmp.set( ( char * )packet.jpeg_buffer, (unsigned int)packet.jpeg_buffer_length);
     
-    if( ofLoadImage(pix, tmp) ){
-    
-      memcpy(frame->data, pix.getPixels(), pix.size());
+    //if( ofLoadImage(pix, tmp) ){
+        pix = cinder::Surface8u ( (uint8_t*)packet.jpeg_buffer, frame->width, frame->height, frame->height*frame->width*frame->bytes_per_pixel, cinder::SurfaceChannelOrder::RGBA);
+      //memcpy(frame->data, pix.getPixels(), pix.size());
+          //memcpy(frame->data, pix.getData(), pix.getSize());
     
       if(listener_->addNewFrame(Frame::Color, frame)){
         newFrame();
       }
-    }
-
+    //}
 }
 
 };

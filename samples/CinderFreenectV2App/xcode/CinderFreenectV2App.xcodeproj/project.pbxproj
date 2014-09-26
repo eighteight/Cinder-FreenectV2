@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091D8F80E81B9330029341E /* OpenGL.framework */; };
+		00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784AF0FF439BC000DE1D7 /* Accelerate.framework */; };
+		00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
+		00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
+		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
+		018DD9ED99CF45E4B81C1B7E /* rgb_packet_stream_parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F11663B78AC41B99419A187 /* rgb_packet_stream_parser.cpp */; };
+		10823B2AA56642568F0EE22A /* event_loop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4413A643A4F4E5B97E909B5 /* event_loop.cpp */; };
+		1F5B2D59D86347B8BB87B1CD /* rgb_packet_processor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EE30F5F6626467C9F87652D /* rgb_packet_processor.cpp */; };
+		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
+		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
+		62FCDEFD26CF4B5F95A34FF8 /* cpu_depth_packet_processor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE01DF6D7ED04D378538AF74 /* cpu_depth_packet_processor.cpp */; };
+		6450CDF311B34B5596C5A442 /* CinderFreenectV2App.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 444F6E0FDDD84F37AA3C6EE5 /* CinderFreenectV2App.cpp */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		8F0841C1C13B4373A3753B4A /* transfer_pool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F37D3DBE343443193B66D59 /* transfer_pool.cpp */; };
+		97EE265E83A3481DBB16B14B /* tinythread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B9A11CC5A7B40188DA1067E /* tinythread.cpp */; };
+		9900314BB9434644A9F38E57 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 27D57078146841B4A0F54144 /* CinderApp.icns */; };
+		9BBD24E242334B15922CE871 /* CinderProtonect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A7FCD874D4EACB34A3624 /* CinderProtonect.cpp */; };
+		A679948850414CEFAF0FA3D0 /* frame_listener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA1B1DCED29245D08F8078EC /* frame_listener.cpp */; };
+		B60E064A31B749528F6F8BBF /* depth_packet_processor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6A59607804C3C8773F88A /* depth_packet_processor.cpp */; };
+		CEF2FCB031A74BBCBD3CFC84 /* depth_packet_stream_parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E81419C6C5E44AEABB31572 /* depth_packet_stream_parser.cpp */; };
+		D4701033032743DE8A2DF4B7 /* CinderKinectV2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6B7B1EF7A0C4F5ABA54D1E6 /* CinderKinectV2.cpp */; };
+		D586B9EBA6054892BF7652D6 /* double_buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3E8F22697664AAAAEC1F74C /* double_buffer.cpp */; };
+		DB87F9E0C1FF4467898149FE /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DB6D3C85DC4D28984D3E22 /* IOKit.framework */; };
+		E290C987BEC24645919A6C7F /* resource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B14B14A48E704B62B0B86F0A /* resource.cpp */; };
+		FC2B467EF8554F9F8D4412CF /* CinderRGBPacketProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6907441A5844F358117FA44 /* CinderRGBPacketProcessor.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00478E18042B497A9BFA35F4 /* linux_usbfs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = linux_usbfs.h; path = ../../../lib/libusb/include/libusb/os/linux_usbfs.h; sourceTree = "<group>"; };
+		0091D8F80E81B9330029341E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		00B784AF0FF439BC000DE1D7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		0C393DD383F74DB3A34EB4DB /* depth_packet_stream_parser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = depth_packet_stream_parser.h; path = ../../../lib/protonect/include/libfreenect2/depth_packet_stream_parser.h; sourceTree = "<group>"; };
+		0F11663B78AC41B99419A187 /* rgb_packet_stream_parser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = rgb_packet_stream_parser.cpp; path = ../../../lib/protonect/src/rgb_packet_stream_parser.cpp; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		120E5D39A70A4F14B83B4EA0 /* hotplug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = hotplug.h; path = ../../../lib/libusb/include/libusb/hotplug.h; sourceTree = "<group>"; };
+		19AF333C8C474FEEA33CF06E /* libusbi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = libusbi.h; path = ../../../lib/libusb/include/libusb/libusbi.h; sourceTree = "<group>"; };
+		1B168617BE9E40E7B3F2C822 /* tables.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tables.h; path = ../../../lib/protonect/include/libfreenect2/tables.h; sourceTree = "<group>"; };
+		27D57078146841B4A0F54144 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		353AEB6AAFC94A92BBA73D45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35E7B6CDC9F643FEAC11ED3F /* CinderKinectV2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CinderKinectV2.h; path = ../../../src/CinderKinectV2.h; sourceTree = "<group>"; };
+		3EE30F5F6626467C9F87652D /* rgb_packet_processor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = rgb_packet_processor.cpp; path = ../../../lib/protonect/src/rgb_packet_processor.cpp; sourceTree = "<group>"; };
+		3F37D3DBE343443193B66D59 /* transfer_pool.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = transfer_pool.cpp; path = ../../../lib/protonect/src/transfer_pool.cpp; sourceTree = "<group>"; };
+		444F6E0FDDD84F37AA3C6EE5 /* CinderFreenectV2App.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CinderFreenectV2App.cpp; path = ../src/CinderFreenectV2App.cpp; sourceTree = "<group>"; };
+		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		5DD6A59607804C3C8773F88A /* depth_packet_processor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = depth_packet_processor.cpp; path = ../../../lib/protonect/src/depth_packet_processor.cpp; sourceTree = "<group>"; };
+		6B9A11CC5A7B40188DA1067E /* tinythread.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = tinythread.cpp; path = ../../../lib/protonect/src/tinythread/tinythread.cpp; sourceTree = "<group>"; };
+		6E81419C6C5E44AEABB31572 /* depth_packet_stream_parser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = depth_packet_stream_parser.cpp; path = ../../../lib/protonect/src/depth_packet_stream_parser.cpp; sourceTree = "<group>"; };
+		6F8A7FCD874D4EACB34A3624 /* CinderProtonect.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = CinderProtonect.cpp; path = ../../../lib/protonect/CinderProtonect.cpp; sourceTree = "<group>"; };
+		72103F85AFB84BC28EEA796B /* version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = version.h; path = ../../../lib/libusb/include/libusb/version.h; sourceTree = "<group>"; };
+		758147AE46F545D0AF60C127 /* poll_posix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = poll_posix.h; path = ../../../lib/libusb/include/libusb/os/poll_posix.h; sourceTree = "<group>"; };
+		75DE6B28595A41BD9ACF1865 /* rgb_packet_processor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = rgb_packet_processor.h; path = ../../../lib/protonect/include/libfreenect2/rgb_packet_processor.h; sourceTree = "<group>"; };
+		76CB69EE7D5B44728A25F0ED /* double_buffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = double_buffer.h; path = ../../../lib/protonect/include/libfreenect2/double_buffer.h; sourceTree = "<group>"; };
+		7C90CAD373CF44598131B247 /* wince_usb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = wince_usb.h; path = ../../../lib/libusb/include/libusb/os/wince_usb.h; sourceTree = "<group>"; };
+		7FA5A306A41442C6A5AEFA53 /* rgb_packet_stream_parser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = rgb_packet_stream_parser.h; path = ../../../lib/protonect/include/libfreenect2/rgb_packet_stream_parser.h; sourceTree = "<group>"; };
+		84DB6D3C85DC4D28984D3E22 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		8A0C9E648EF54C5DB390AC0B /* resource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = resource.h; path = ../../../lib/protonect/include/libfreenect2/resource.h; sourceTree = "<group>"; };
+		8C27CC76306A458D91700C76 /* depth_packet_processor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = depth_packet_processor.h; path = ../../../lib/protonect/include/libfreenect2/depth_packet_processor.h; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* CinderFreenectV2App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CinderFreenectV2App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8B784ED6A124DAEB9F18BB4 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
+		ADC48B2CCD4349F3818467CF /* frame_listener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = frame_listener.h; path = ../../../lib/protonect/include/libfreenect2/frame_listener.h; sourceTree = "<group>"; };
+		B14B14A48E704B62B0B86F0A /* resource.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = resource.cpp; path = ../../../lib/protonect/src/resource.cpp; sourceTree = "<group>"; };
+		B4413A643A4F4E5B97E909B5 /* event_loop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = event_loop.cpp; path = ../../../lib/protonect/src/event_loop.cpp; sourceTree = "<group>"; };
+		BEB9B061F9154CA1A0EDA65F /* threads_posix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = threads_posix.h; path = ../../../lib/libusb/include/libusb/os/threads_posix.h; sourceTree = "<group>"; };
+		C1869E41D5A2442A955C2FA0 /* poll_windows.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = poll_windows.h; path = ../../../lib/libusb/include/libusb/os/poll_windows.h; sourceTree = "<group>"; };
+		C44EA81C5CA341D2B1E48285 /* libusb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = libusb.h; path = ../../../lib/libusb/include/libusb/libusb.h; sourceTree = "<group>"; };
+		C4E50B03959B45E1B3E1032D /* tinythread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tinythread.h; path = ../../../lib/protonect/src/tinythread/tinythread.h; sourceTree = "<group>"; };
+		CB5CC8AB952B4674A795E5A5 /* libfreenect2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = libfreenect2.h; path = ../../../lib/libfreenect2/include/libfreenect2.h; sourceTree = "<group>"; };
+		DE01DF6D7ED04D378538AF74 /* cpu_depth_packet_processor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = cpu_depth_packet_processor.cpp; path = ../../../lib/protonect/src/cpu_depth_packet_processor.cpp; sourceTree = "<group>"; };
+		DE88E23AC4CF4B1D94D703F9 /* windows_usb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = windows_usb.h; path = ../../../lib/libusb/include/libusb/os/windows_usb.h; sourceTree = "<group>"; };
+		E1D4BCC708014CABB8B17486 /* darwin_usb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = darwin_usb.h; path = ../../../lib/libusb/include/libusb/os/darwin_usb.h; sourceTree = "<group>"; };
+		E3E8F22697664AAAAEC1F74C /* double_buffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = double_buffer.cpp; path = ../../../lib/protonect/src/double_buffer.cpp; sourceTree = "<group>"; };
+		E6C606F419D5DDE40064F6FE /* CinderProtonect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CinderProtonect.h; path = ../../../lib/protonect/CinderProtonect.h; sourceTree = "<group>"; };
+		E6C606F519D5DDE40064F6FE /* CinderRGBPacketProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CinderRGBPacketProcessor.h; path = ../../../lib/protonect/CinderRGBPacketProcessor.h; sourceTree = "<group>"; };
+		E70E100AB0AA40559A43B534 /* threading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = threading.h; path = ../../../lib/protonect/include/libfreenect2/threading.h; sourceTree = "<group>"; };
+		ED074DD37518495A8FF3D8D0 /* threads_windows.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = threads_windows.h; path = ../../../lib/libusb/include/libusb/os/threads_windows.h; sourceTree = "<group>"; };
+		ED9F9F3F2FDA45C7BDADB17C /* CinderOpenCV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CinderOpenCV.h; path = ../../../../OpenCV/include/CinderOpenCV.h; sourceTree = "<group>"; };
+		EE610901F7BD44C38128CC82 /* async_packet_processor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = async_packet_processor.h; path = ../../../lib/protonect/include/libfreenect2/async_packet_processor.h; sourceTree = "<group>"; };
+		F05AE7A485314405B700296F /* version_nano.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = version_nano.h; path = ../../../lib/libusb/include/libusb/version_nano.h; sourceTree = "<group>"; };
+		F3883B322F5440A697663CE9 /* transfer_pool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = transfer_pool.h; path = ../../../lib/protonect/include/libfreenect2/usb/transfer_pool.h; sourceTree = "<group>"; };
+		F6907441A5844F358117FA44 /* CinderRGBPacketProcessor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = CinderRGBPacketProcessor.cpp; path = ../../../lib/protonect/CinderRGBPacketProcessor.cpp; sourceTree = "<group>"; };
+		F6B7B1EF7A0C4F5ABA54D1E6 /* CinderKinectV2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = CinderKinectV2.cpp; path = ../../../src/CinderKinectV2.cpp; sourceTree = "<group>"; };
+		F768B7D1D3F6428A917D434F /* CinderFreenectV2App_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = CinderFreenectV2App_Prefix.pch; sourceTree = "<group>"; };
+		F82EC591FF3D4EB38C40C50B /* windows_common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = windows_common.h; path = ../../../lib/libusb/include/libusb/os/windows_common.h; sourceTree = "<group>"; };
+		FA1B1DCED29245D08F8078EC /* frame_listener.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = frame_listener.cpp; path = ../../../lib/protonect/src/frame_listener.cpp; sourceTree = "<group>"; };
+		FF463EAC4A044F84945EC168 /* event_loop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = event_loop.h; path = ../../../lib/protonect/include/libfreenect2/usb/event_loop.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */,
+				5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */,
+				5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */,
+				00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */,
+				00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */,
+				00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */,
+				00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */,
+				DB87F9E0C1FF4467898149FE /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B97315FEAEA392516A2CEA /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				7EC5CF382FB84401BC080545 /* Cinder-Freenect2 */,
+				782F6DBB415443DBBBABA92B /* OpenCV */,
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
+		058F38A139B542FBA9955A41 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				ED9F9F3F2FDA45C7BDADB17C /* CinderOpenCV.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		0783A163C9F749898207BEC3 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				35E7B6CDC9F643FEAC11ED3F /* CinderKinectV2.h */,
+				F6B7B1EF7A0C4F5ABA54D1E6 /* CinderKinectV2.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				444F6E0FDDD84F37AA3C6EE5 /* CinderFreenectV2App.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		0CED46F28CAB47DCA015D5BE /* libfreenect2 */ = {
+			isa = PBXGroup;
+			children = (
+				EE610901F7BD44C38128CC82 /* async_packet_processor.h */,
+				8C27CC76306A458D91700C76 /* depth_packet_processor.h */,
+				0C393DD383F74DB3A34EB4DB /* depth_packet_stream_parser.h */,
+				76CB69EE7D5B44728A25F0ED /* double_buffer.h */,
+				ADC48B2CCD4349F3818467CF /* frame_listener.h */,
+				8A0C9E648EF54C5DB390AC0B /* resource.h */,
+				75DE6B28595A41BD9ACF1865 /* rgb_packet_processor.h */,
+				7FA5A306A41442C6A5AEFA53 /* rgb_packet_stream_parser.h */,
+				1B168617BE9E40E7B3F2C822 /* tables.h */,
+				E70E100AB0AA40559A43B534 /* threading.h */,
+				21C0A74C35FB43E2ABCF6999 /* usb */,
+			);
+			name = libfreenect2;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00B784AF0FF439BC000DE1D7 /* Accelerate.framework */,
+				00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */,
+				00B784B10FF439BC000DE1D7 /* AudioUnit.framework */,
+				00B784B20FF439BC000DE1D7 /* CoreAudio.framework */,
+				5323E6B50EAFCA7E003A9687 /* QTKit.framework */,
+				5323E6B10EAFCA74003A9687 /* CoreVideo.framework */,
+				0091D8F80E81B9330029341E /* OpenGL.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* CinderFreenectV2App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21C0A74C35FB43E2ABCF6999 /* usb */ = {
+			isa = PBXGroup;
+			children = (
+				FF463EAC4A044F84945EC168 /* event_loop.h */,
+				F3883B322F5440A697663CE9 /* transfer_pool.h */,
+			);
+			name = usb;
+			sourceTree = "<group>";
+		};
+		26CDDD5496994939980D6BE8 /* tinythread */ = {
+			isa = PBXGroup;
+			children = (
+				C4E50B03959B45E1B3E1032D /* tinythread.h */,
+				6B9A11CC5A7B40188DA1067E /* tinythread.cpp */,
+			);
+			name = tinythread;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CinderFreenectV2App */ = {
+			isa = PBXGroup;
+			children = (
+				01B97315FEAEA392516A2CEA /* Blocks */,
+				29B97315FDCFA39411CA2CEA /* Headers */,
+				080E96DDFE201D6D7F000001 /* Source */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CinderFreenectV2App;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				A8B784ED6A124DAEB9F18BB4 /* Resources.h */,
+				F768B7D1D3F6428A917D434F /* CinderFreenectV2App_Prefix.pch */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				27D57078146841B4A0F54144 /* CinderApp.icns */,
+				353AEB6AAFC94A92BBA73D45 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+				84DB6D3C85DC4D28984D3E22 /* IOKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32AF347A1BBF467CBED5C4B7 /* libfreenect2 */ = {
+			isa = PBXGroup;
+			children = (
+				38D74102FCCF44F7B744A1E6 /* include */,
+			);
+			name = libfreenect2;
+			sourceTree = "<group>";
+		};
+		38D74102FCCF44F7B744A1E6 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				CB5CC8AB952B4674A795E5A5 /* libfreenect2.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		730A3751BEA040CC84BC2698 /* libusb */ = {
+			isa = PBXGroup;
+			children = (
+				120E5D39A70A4F14B83B4EA0 /* hotplug.h */,
+				C44EA81C5CA341D2B1E48285 /* libusb.h */,
+				19AF333C8C474FEEA33CF06E /* libusbi.h */,
+				72103F85AFB84BC28EEA796B /* version.h */,
+				F05AE7A485314405B700296F /* version_nano.h */,
+				BC128ECE8C764D838F054C54 /* os */,
+			);
+			name = libusb;
+			sourceTree = "<group>";
+		};
+		782F6DBB415443DBBBABA92B /* OpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				058F38A139B542FBA9955A41 /* include */,
+			);
+			name = OpenCV;
+			sourceTree = "<group>";
+		};
+		7EC5CF382FB84401BC080545 /* Cinder-Freenect2 */ = {
+			isa = PBXGroup;
+			children = (
+				D3A25E5FD89C43A082EB40ED /* lib */,
+				0783A163C9F749898207BEC3 /* src */,
+			);
+			name = "Cinder-Freenect2";
+			sourceTree = "<group>";
+		};
+		841DBF6442D542A19780D549 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				26CDDD5496994939980D6BE8 /* tinythread */,
+				DE01DF6D7ED04D378538AF74 /* cpu_depth_packet_processor.cpp */,
+				5DD6A59607804C3C8773F88A /* depth_packet_processor.cpp */,
+				6E81419C6C5E44AEABB31572 /* depth_packet_stream_parser.cpp */,
+				E3E8F22697664AAAAEC1F74C /* double_buffer.cpp */,
+				B4413A643A4F4E5B97E909B5 /* event_loop.cpp */,
+				FA1B1DCED29245D08F8078EC /* frame_listener.cpp */,
+				B14B14A48E704B62B0B86F0A /* resource.cpp */,
+				3EE30F5F6626467C9F87652D /* rgb_packet_processor.cpp */,
+				0F11663B78AC41B99419A187 /* rgb_packet_stream_parser.cpp */,
+				3F37D3DBE343443193B66D59 /* transfer_pool.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		89BA32C014F746BABC40D611 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				730A3751BEA040CC84BC2698 /* libusb */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		A5D57F716F654D2AA138389A /* protonect */ = {
+			isa = PBXGroup;
+			children = (
+				E6C606F419D5DDE40064F6FE /* CinderProtonect.h */,
+				E6C606F519D5DDE40064F6FE /* CinderRGBPacketProcessor.h */,
+				E657377CC7AD498991418011 /* include */,
+				841DBF6442D542A19780D549 /* src */,
+				6F8A7FCD874D4EACB34A3624 /* CinderProtonect.cpp */,
+				F6907441A5844F358117FA44 /* CinderRGBPacketProcessor.cpp */,
+			);
+			name = protonect;
+			sourceTree = "<group>";
+		};
+		BC128ECE8C764D838F054C54 /* os */ = {
+			isa = PBXGroup;
+			children = (
+				E1D4BCC708014CABB8B17486 /* darwin_usb.h */,
+				00478E18042B497A9BFA35F4 /* linux_usbfs.h */,
+				758147AE46F545D0AF60C127 /* poll_posix.h */,
+				C1869E41D5A2442A955C2FA0 /* poll_windows.h */,
+				BEB9B061F9154CA1A0EDA65F /* threads_posix.h */,
+				ED074DD37518495A8FF3D8D0 /* threads_windows.h */,
+				7C90CAD373CF44598131B247 /* wince_usb.h */,
+				F82EC591FF3D4EB38C40C50B /* windows_common.h */,
+				DE88E23AC4CF4B1D94D703F9 /* windows_usb.h */,
+			);
+			name = os;
+			sourceTree = "<group>";
+		};
+		CD826E6A1E1F44318ACC77F6 /* libusb */ = {
+			isa = PBXGroup;
+			children = (
+				89BA32C014F746BABC40D611 /* include */,
+			);
+			name = libusb;
+			sourceTree = "<group>";
+		};
+		D3A25E5FD89C43A082EB40ED /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				32AF347A1BBF467CBED5C4B7 /* libfreenect2 */,
+				CD826E6A1E1F44318ACC77F6 /* libusb */,
+				A5D57F716F654D2AA138389A /* protonect */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		E657377CC7AD498991418011 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				0CED46F28CAB47DCA015D5BE /* libfreenect2 */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* CinderFreenectV2App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "CinderFreenectV2App" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CinderFreenectV2App;
+			productInstallPath = "$(HOME)/Applications";
+			productName = CinderFreenectV2App;
+			productReference = 8D1107320486CEB800E47090 /* CinderFreenectV2App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CinderFreenectV2App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CinderFreenectV2App */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* CinderFreenectV2App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9900314BB9434644A9F38E57 /* CinderApp.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6450CDF311B34B5596C5A442 /* CinderFreenectV2App.cpp in Sources */,
+				9BBD24E242334B15922CE871 /* CinderProtonect.cpp in Sources */,
+				FC2B467EF8554F9F8D4412CF /* CinderRGBPacketProcessor.cpp in Sources */,
+				62FCDEFD26CF4B5F95A34FF8 /* cpu_depth_packet_processor.cpp in Sources */,
+				B60E064A31B749528F6F8BBF /* depth_packet_processor.cpp in Sources */,
+				CEF2FCB031A74BBCBD3CFC84 /* depth_packet_stream_parser.cpp in Sources */,
+				D586B9EBA6054892BF7652D6 /* double_buffer.cpp in Sources */,
+				10823B2AA56642568F0EE22A /* event_loop.cpp in Sources */,
+				A679948850414CEFAF0FA3D0 /* frame_listener.cpp in Sources */,
+				E290C987BEC24645919A6C7F /* resource.cpp in Sources */,
+				1F5B2D59D86347B8BB87B1CD /* rgb_packet_processor.cpp in Sources */,
+				018DD9ED99CF45E4B81C1B7E /* rgb_packet_stream_parser.cpp in Sources */,
+				8F0841C1C13B4373A3753B4A /* transfer_pool.cpp in Sources */,
+				97EE265E83A3481DBB16B14B /* tinythread.cpp in Sources */,
+				D4701033032743DE8A2DF4B7 /* CinderKinectV2.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CinderFreenectV2App_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"\"$(CINDER_PATH)/lib/libcinder_d.a\"",
+					"\"../../../lib/libusb/lib/osx/usb-1.0.0-superspeed.a\"",
+					../../../../OpenCV/lib/macosx/libopencv_calib3d.a,
+					../../../../OpenCV/lib/macosx/libopencv_contrib.a,
+					../../../../OpenCV/lib/macosx/libopencv_core.a,
+					../../../../OpenCV/lib/macosx/libopencv_features2d.a,
+					../../../../OpenCV/lib/macosx/libopencv_flann.a,
+					../../../../OpenCV/lib/macosx/libopencv_gpu.a,
+					../../../../OpenCV/lib/macosx/libopencv_imgproc.a,
+					../../../../OpenCV/lib/macosx/libopencv_legacy.a,
+					../../../../OpenCV/lib/macosx/libopencv_ml.a,
+					../../../../OpenCV/lib/macosx/libopencv_nonfree.a,
+					../../../../OpenCV/lib/macosx/libopencv_objdetect.a,
+					../../../../OpenCV/lib/macosx/libopencv_photo.a,
+					../../../../OpenCV/lib/macosx/libopencv_stitching.a,
+					../../../../OpenCV/lib/macosx/libopencv_ts.a,
+					../../../../OpenCV/lib/macosx/libopencv_video.a,
+					../../../../OpenCV/lib/macosx/libopencv_videostab.a,
+				);
+				PRODUCT_NAME = CinderFreenectV2App;
+				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_FAST_MATH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CinderFreenectV2App_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"NDEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"\"$(CINDER_PATH)/lib/libcinder.a\"",
+					"\"../../../lib/libusb/lib/osx/usb-1.0.0-superspeed.a\"",
+					../../../../OpenCV/lib/macosx/libopencv_calib3d.a,
+					../../../../OpenCV/lib/macosx/libopencv_contrib.a,
+					../../../../OpenCV/lib/macosx/libopencv_core.a,
+					../../../../OpenCV/lib/macosx/libopencv_features2d.a,
+					../../../../OpenCV/lib/macosx/libopencv_flann.a,
+					../../../../OpenCV/lib/macosx/libopencv_gpu.a,
+					../../../../OpenCV/lib/macosx/libopencv_imgproc.a,
+					../../../../OpenCV/lib/macosx/libopencv_legacy.a,
+					../../../../OpenCV/lib/macosx/libopencv_ml.a,
+					../../../../OpenCV/lib/macosx/libopencv_nonfree.a,
+					../../../../OpenCV/lib/macosx/libopencv_objdetect.a,
+					../../../../OpenCV/lib/macosx/libopencv_photo.a,
+					../../../../OpenCV/lib/macosx/libopencv_stitching.a,
+					../../../../OpenCV/lib/macosx/libopencv_ts.a,
+					../../../../OpenCV/lib/macosx/libopencv_video.a,
+					../../../../OpenCV/lib/macosx/libopencv_videostab.a,
+				);
+				PRODUCT_NAME = CinderFreenectV2App;
+				STRIP_INSTALLED_PRODUCT = YES;
+				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				CINDER_PATH = ../../../../..;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(CINDER_PATH)/boost\"",
+					../../../src/freenect,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include ../../../src ../../../lib/protonect/include ../../../../OpenCV/include ../../../../OpenCV/include/opencv2";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				CINDER_PATH = ../../../../..;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(CINDER_PATH)/boost\"",
+					../../../src/freenect,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include ../../../src ../../../lib/protonect/include ../../../../OpenCV/include ../../../../OpenCV/include/opencv2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "CinderFreenectV2App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CinderFreenectV2App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

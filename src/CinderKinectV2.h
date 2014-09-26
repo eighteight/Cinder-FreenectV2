@@ -8,14 +8,14 @@
 
 #pragma once
 
-#include "ofProtonect.h"
+#include "CinderProtonect.h"
 #include "ofMain.h"
 
-class ofxKinectV2 : public ofThread{
+class CinderKinectV2 : public ofThread{
 
     public:
-        ofxKinectV2();
-        ~ofxKinectV2(); 
+        CinderKinectV2();
+        ~CinderKinectV2(); 
         
         bool open();
         void update();

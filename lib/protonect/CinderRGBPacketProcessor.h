@@ -24,8 +24,8 @@ class CinderRGBPacketProcessor : public RgbPacketProcessor{
 
     protected:
         void newFrame();
-//        Frame *frame;
-//        ofPixels pix; 
+        Frame *frame;
+        cinder::Surface pix;
 
 };
 

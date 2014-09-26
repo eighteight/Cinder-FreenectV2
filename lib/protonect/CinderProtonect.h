@@ -5,7 +5,7 @@
 //
 //
 
-#include "ofMain.h"
+//#include "ofMain.h"
 
 #include <libfreenect2/tables.h>
 #include <libfreenect2/usb/event_loop.h>
@@ -14,10 +14,10 @@
 #include <libfreenect2/rgb_packet_processor.h>
 #include <libfreenect2/depth_packet_stream_parser.h>
 #include <libfreenect2/frame_listener.h>
-#include "ofRGBPacketProcessor.h"
+#include "CinderRGBPacketProcessor.h"
 
-#include "ofAppGLFWWindow.h"
-#include "ofAppRunner.h"
+//#include "ofAppGLFWWindow.h"
+//#include "ofAppRunner.h"
 
 class ofProtonect{
 
@@ -42,7 +42,7 @@ class ofProtonect{
         libfreenect2::usb::EventLoop usb_loop;
         libusb_device *dev;
 
-        libfreenect2::ofRGBPacketProcessor  * rgb_processor;
+        libfreenect2::CinderRGBPacketProcessor  * rgb_processor;
 
         libfreenect2::usb::BulkTransferPool * rgb_bulk_transfers;
         libfreenect2::RgbPacketStreamParser * rgb_packet_stream_parser;

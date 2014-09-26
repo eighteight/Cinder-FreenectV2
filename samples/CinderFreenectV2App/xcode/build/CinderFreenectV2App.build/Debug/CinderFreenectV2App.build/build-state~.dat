@@ -1,0 +1,1347 @@
+TCinderFreenectV2App
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug/CinderFreenectV2App.app/Contents/Info.plist /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/Info.plist
+cCpResource /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/resources/CinderApp.icns build/Debug/CinderFreenectV2App.app/Contents/Resources/CinderApp.icns
+cProcessPCH++ /var/folders/l3/734tpr_94d93pygw0ffk9lyrccwcl_/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CinderFreenectV2App_Prefix-euewguyctzrylwcbztgxfvricnzo/CinderFreenectV2App_Prefix.pch.pch CinderFreenectV2App_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/CinderFreenectV2AppApp.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/src/CinderFreenectV2AppApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/CinderProtonect.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderProtonect.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/CinderRGBPacketProcessor.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/cpu_depth_packet_processor.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/cpu_depth_packet_processor.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/depth_packet_stream_parser.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/depth_packet_stream_parser.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/depth_packet_processor.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/depth_packet_processor.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/event_loop.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/event_loop.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/double_buffer.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/double_buffer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/frame_listener.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/frame_listener.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/resource.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/resource.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c00000000533B9F35000000000000044C
+t1396416309
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000533B9F3500000000000001DE
+t1396416309
+s478
+
+N/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderProtonect.cpp
+c000000005425807D00000000000061AE
+t1411743869
+s25006
+
+N/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp
+c000000005425807D00000000000002E3
+t1411743869
+s739
+
+N/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/cpu_depth_packet_processor.cpp
+c000000005425807D0000000000004F4D
+t1411743869
+s20301
+
+N/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/depth_packet_processor.cpp
+c000000005425807D0000000000000BBD
+t1411743869
+s3005
+
+N/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/depth_packet_stream_parser.cpp
+c000000005425807D0000000000001470
+t1411743869
+s5232
+
+N/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/double_buffer.cpp
+c000000005425807D00000000000007F3
+t1411743869
+s2035
+
+N/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/event_loop.cpp
+c000000005425807D0000000000000730
+t1411743869
+s1840
+
+N/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/frame_listener.cpp
+c000000005425807D0000000000000906
+t1411743869
+s2310
+
+N/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/resource.cpp
+c000000005425807D0000000000000704
+t1411743869
+s1796
+
+N/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/resources/CinderApp.icns
+c00000000542581E20000000000070375
+t1411744226
+s459637
+
+N/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/src/CinderFreenectV2AppApp.cpp
+c00000000542581E2000000000000024E
+t1411744226
+s590
+
+N/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/CinderFreenectV2App_Prefix.pch
+c00000000542581E2000000000000012D
+t1411744226
+s301
+
+N/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/Info.plist
+c00000000542581E20000000000000462
+t1411744226
+s1122
+
+N/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/CinderFreenectV2AppApp.o
+t2
+s0
+
+N/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/CinderProtonect.o
+t2
+s0
+
+N/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/CinderRGBPacketProcessor.o
+t2
+s0
+
+N/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/cpu_depth_packet_processor.o
+t2
+s0
+
+N/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/depth_packet_processor.o
+t2
+s0
+
+N/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/depth_packet_stream_parser.o
+t2
+s0
+
+N/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/double_buffer.o
+t2
+s0
+
+N/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/event_loop.o
+t2
+s0
+
+N/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/frame_listener.o
+t2
+s0
+
+N/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/resource.o
+t2
+s0
+
+N/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug/CinderFreenectV2App.app/Contents/Info.plist
+t2
+s0
+
+N/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug/CinderFreenectV2App.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug/CinderFreenectV2App.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/var/folders/l3/734tpr_94d93pygw0ffk9lyrccwcl_/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CinderFreenectV2App_Prefix-euewguyctzrylwcbztgxfvricnzo/CinderFreenectV2App_Prefix.pch.pch
+t1411744237
+s67090724
+
+CBuild AST from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderProtonect.cpp
+r0
+
+CBuild AST from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp
+r0
+
+CBuild AST from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/cpu_depth_packet_processor.cpp
+r0
+
+CBuild AST from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/depth_packet_processor.cpp
+r0
+
+CBuild AST from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/depth_packet_stream_parser.cpp
+r0
+
+CBuild AST from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/double_buffer.cpp
+r0
+
+CBuild AST from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/event_loop.cpp
+r0
+
+CBuild AST from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/frame_listener.cpp
+r0
+
+CBuild AST from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/resource.cpp
+r0
+
+CBuild AST from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/rgb_packet_processor.cpp
+r0
+
+CBuild AST from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/rgb_packet_stream_parser.cpp
+r0
+
+CBuild AST from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/tinythread/tinythread.cpp
+r0
+
+CBuild AST from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/transfer_pool.cpp
+r0
+
+CBuild AST from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/src/CinderFreenectV2AppApp.cpp
+r0
+
+CBuild AST from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/src/CinderKinectV2.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesf65c7a68b9d5b941^e0838f68b9d5b941^---0#1#1#--18"Check dependencies36"5291C1FD-E8EF-4211-891F-10C109B46D16-
+
+CCompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/CinderFreenectV2AppApp.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/src/CinderFreenectV2AppApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s433437037.078633
+e433437039.251629
+r1
+xCompileC
+xbuild/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/CinderFreenectV2AppApp.o
+x/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/src/CinderFreenectV2AppApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/src/CinderFreenectV2AppApp.cpp
+d/Users/vgusev/repos/Cinder/include/cinder/app/AppNative.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Compile /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/src/CinderFreenectV2AppApp.cpp288"CompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/CinderFreenectV2AppApp.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/src/CinderFreenectV2AppApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler1635146db9d5b941^df6b406fb9d5b941^---0#0#1#-19%DVTDocumentLocation2@126"file://localhost/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/src/CinderFreenectV2AppApp.cpp0000000000000000^3998"CompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/CinderFreenectV2AppApp.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/src/CinderFreenectV2AppApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/OSX10.8.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-generated-files.hmap -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-own-target-headers.hmap -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-all-target-headers.hmap -iquote /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-project-headers.hmap -iquote../../../../../include -iquote../include -iquote../../../src -iquote../../../lib/protonect/include -iquote../../../../OpenCV/include -iquote../../../../OpenCV/include/opencv2 -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug/include -I../../../../../boost -I../../../src/freenect -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/DerivedSources/i386 -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/DerivedSources -F/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug -include /var/folders/l3/734tpr_94d93pygw0ffk9lyrccwcl_/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CinderFreenectV2App_Prefix-euewguyctzrylwcbztgxfvricnzo/CinderFreenectV2App_Prefix.pch -MMD -MT dependencies -MF /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/CinderFreenectV2AppApp.d --serialize-diagnostics /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/CinderFreenectV2AppApp.dia -c /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/src/CinderFreenectV2AppApp.cpp -o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/CinderFreenectV2AppApp.o36"3A2B5C89-9EB1-4967-8123-B759BDB880A5-
+bB2FAA0FD-0FD0-4745-9884-23900C94EC5E
+
+CCompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/CinderKinectV2.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/src/CinderKinectV2.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/CinderProtonect.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderProtonect.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s433437037.078660
+e433437039.351856
+r0
+xCompileC
+xbuild/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/CinderProtonect.o
+x/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderProtonect.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderProtonect.cpp:8:10: fatal error: 'ofProtonect.h' file not found
+o#include "ofProtonect.h"
+o         ^
+o1 error generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderProtonect.cpp256"CompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/CinderProtonect.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderProtonect.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler8736146db9d5b941^a5165a6fb9d5b941^-191"/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderProtonect.cpp:8:10: fatal error: 'ofProtonect.h' file not found#include "ofProtonect.h"         ^1 error generated.-0#0#1#-19%DVTDocumentLocation2@101"file://localhost/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderProtonect.cpp0000000000000000^3920"CompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/CinderProtonect.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderProtonect.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/OSX10.8.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-generated-files.hmap -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-own-target-headers.hmap -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-all-target-headers.hmap -iquote /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-project-headers.hmap -iquote../../../../../include -iquote../include -iquote../../../src -iquote../../../lib/protonect/include -iquote../../../../OpenCV/include -iquote../../../../OpenCV/include/opencv2 -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug/include -I../../../../../boost -I../../../src/freenect -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/DerivedSources/i386 -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/DerivedSources -F/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug -include /var/folders/l3/734tpr_94d93pygw0ffk9lyrccwcl_/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CinderFreenectV2App_Prefix-euewguyctzrylwcbztgxfvricnzo/CinderFreenectV2App_Prefix.pch -MMD -MT dependencies -MF /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/CinderProtonect.d --serialize-diagnostics /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/CinderProtonect.dia -c /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderProtonect.cpp -o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/CinderProtonect.o36"55A2F187-F85C-4DFA-90A1-5F91F294C103-
+bB2FAA0FD-0FD0-4745-9884-23900C94EC5E
+
+CCompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/CinderRGBPacketProcessor.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s433437037.078672
+e433437038.547395
+r0
+xCompileC
+xbuild/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/CinderRGBPacketProcessor.o
+x/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp
+d/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.h
+d/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/include/libfreenect2/rgb_packet_processor.h
+d/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/include/libfreenect2/frame_listener.h
+d/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/include/libfreenect2/threading.h
+d/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/tinythread/tinythread.h
+o/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp:13:1: error: use of undeclared identifier 'ofRGBPacketProcessor'; did you mean 'RgbPacketProcessor'?
+oofRGBPacketProcessor::CinderRGBPacketProcessor(){
+o^~~~~~~~~~~~~~~~~~~~
+oRgbPacketProcessor
+oIn file included from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp:8:
+oIn file included from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.h:12:
+o../../../lib/protonect/include/libfreenect2/rgb_packet_processor.h:46:7: note: 'RgbPacketProcessor' declared here
+oclass RgbPacketProcessor
+o      ^
+o/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp:13:23: error: C++ requires a type specifier for all declarations
+oofRGBPacketProcessor::CinderRGBPacketProcessor(){
+o~~~~~~~~~~~~~~~~~~~~  ^
+o/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp:14:5: error: use of undeclared identifier 'newFrame'
+o    newFrame();
+o    ^
+o/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp:22:5: error: use of undeclared identifier 'frame'
+o    frame = new Frame(1920, 1080, 3);
+o    ^
+o/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp:25:6: error: use of undeclared identifier 'ofRGBPacketProcessor'; did you mean 'RgbPacketProcessor'?
+ovoid ofRGBPacketProcessor::process(const libfreenect2::RgbPacket &packet){
+o     ^~~~~~~~~~~~~~~~~~~~
+o     RgbPacketProcessor
+oIn file included from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp:8:
+oIn file included from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.h:12:
+o../../../lib/protonect/include/libfreenect2/rgb_packet_processor.h:46:7: note: 'RgbPacketProcessor' declared here
+oclass RgbPacketProcessor
+o      ^
+o/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp:26:5: error: unknown type name 'ofBuffer'
+o    ofBuffer tmp;
+o    ^
+o/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp:29:21: error: use of undeclared identifier 'pix'; did you mean 'pi'?
+o    if( ofLoadImage(pix, tmp) ){
+o                    ^~~
+o                    pi
+oIn file included from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp:1:
+oIn file included from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/CinderFreenectV2App_Prefix.pch:8:
+oIn file included from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/../../../../../include/cinder/app/AppBasic.h:28:
+oIn file included from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/../../../../../include/cinder/app/App.h:28:
+oIn file included from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/../../../../../include/cinder/app/Renderer.h:48:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h:23:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h:23:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/AE.framework/Headers/AE.h:20:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/CarbonCore.h:159:
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/fp.h:1191:23: note: 'pi' declared here
+oextern const double_t pi                                             __OSX_AVAILABLE_BUT_DEPRECATED(__MAC_10_0, __MAC_10_8, __IPHONE_NA, __IPHONE_NA);
+o                      ^
+o/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp:31:14: error: use of undeclared identifier 'frame'
+o      memcpy(frame->data, pix.getPixels(), pix.size());
+o             ^
+o/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp:33:47: error: use of undeclared identifier 'frame'
+o      if(listener_->addNewFrame(Frame::Color, frame)){
+o                                              ^
+o/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp:34:9: error: use of undeclared identifier 'newFrame'
+o        newFrame();
+o        ^
+o10 errors generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp274"CompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/CinderRGBPacketProcessor.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler253d146db9d5b941^bc038c6eb9d5b941^-5019"/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp:13:1: error: use of undeclared identifier 'ofRGBPacketProcessor'; did you mean 'RgbPacketProcessor'?ofRGBPacketProcessor::CinderRGBPacketProcessor(){^~~~~~~~~~~~~~~~~~~~RgbPacketProcessorIn file included from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp:8:In file included from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.h:12:../../../lib/protonect/include/libfreenect2/rgb_packet_processor.h:46:7: note: 'RgbPacketProcessor' declared hereclass RgbPacketProcessor      ^/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp:13:23: error: C++ requires a type specifier for all declarationsofRGBPacketProcessor::CinderRGBPacketProcessor(){~~~~~~~~~~~~~~~~~~~~  ^/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp:14:5: error: use of undeclared identifier 'newFrame'    newFrame();    ^/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp:22:5: error: use of undeclared identifier 'frame'    frame = new Frame(1920, 1080, 3);    ^/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp:25:6: error: use of undeclared identifier 'ofRGBPacketProcessor'; did you mean 'RgbPacketProcessor'?void ofRGBPacketProcessor::process(const libfreenect2::RgbPacket &packet){     ^~~~~~~~~~~~~~~~~~~~     RgbPacketProcessorIn file included from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp:8:In file included from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.h:12:../../../lib/protonect/include/libfreenect2/rgb_packet_processor.h:46:7: note: 'RgbPacketProcessor' declared hereclass RgbPacketProcessor      ^/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp:26:5: error: unknown type name 'ofBuffer'    ofBuffer tmp;    ^/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp:29:21: error: use of undeclared identifier 'pix'; did you mean 'pi'?    if( ofLoadImage(pix, tmp) ){                    ^~~                    piIn file included from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp:1:In file included from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/CinderFreenectV2App_Prefix.pch:8:In file included from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/../../../../../include/cinder/app/AppBasic.h:28:In file included from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/../../../../../include/cinder/app/App.h:28:In file included from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/../../../../../include/cinder/app/Renderer.h:48:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h:23:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h:23:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/AE.framework/Headers/AE.h:20:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/CarbonCore.h:159:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/fp.h:1191:23: note: 'pi' declared hereextern const double_t pi                                             __OSX_AVAILABLE_BUT_DEPRECATED(__MAC_10_0, __MAC_10_8, __IPHONE_NA, __IPHONE_NA);                      ^/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp:31:14: error: use of undeclared identifier 'frame'      memcpy(frame->data, pix.getPixels(), pix.size());             ^/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp:33:47: error: use of undeclared identifier 'frame'      if(listener_->addNewFrame(Frame::Color, frame)){                                              ^/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp:34:9: error: use of undeclared identifier 'newFrame'        newFrame();        ^10 errors generated.10(36%IDEClangDiagnosticActivityLogMessage2@87"Use of undeclared identifier 'ofRGBPacketProcessor'; did you mean 'RgbPacketProcessor'?-433437038#18446744073709551615#0#1(2@34"'RgbPacketProcessor' declared here-433437038#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@125"file://localhost/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/include/libfreenect2/rgb_packet_processor.h0000000000000000^45#6#45#6#1384#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@110"file://localhost/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp0000000000000000^12#0#12#0#150#0#14"Semantic Issue1(3@110"file://localhost/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp0000000000000000^12#0#12#20#150#20#-2@50"C++ requires a type specifier for all declarations-433437038#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@110"file://localhost/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp0000000000000000^12#22#12#22#172#0#14"Semantic Issue1(3@110"file://localhost/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp0000000000000000^12#0#12#20#150#0#-2@39"Use of undeclared identifier 'newFrame'-433437038#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@110"file://localhost/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp0000000000000000^13#4#13#4#204#0#14"Semantic Issue--2@36"Use of undeclared identifier 'frame'-433437038#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@110"file://localhost/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp0000000000000000^21#4#21#4#325#0#14"Semantic Issue--2@87"Use of undeclared identifier 'ofRGBPacketProcessor'; did you mean 'RgbPacketProcessor'?-433437038#18446744073709551615#0#1(2@34"'RgbPacketProcessor' declared here-433437038#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@125"file://localhost/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/include/libfreenect2/rgb_packet_processor.h0000000000000000^45#6#45#6#1384#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@110"file://localhost/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp0000000000000000^24#5#24#5#367#0#14"Semantic Issue1(3@110"file://localhost/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp0000000000000000^24#5#24#25#367#20#-2@28"Unknown type name 'ofBuffer'-433437038#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@110"file://localhost/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp0000000000000000^25#4#25#4#441#0#11"Parse Issue--2@54"Use of undeclared identifier 'pix'; did you mean 'pi'?-433437038#18446744073709551615#0#1(2@18"'pi' declared here-433437038#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@208"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/fp.h0000000000000000^1190#22#1190#22#38965#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@110"file://localhost/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp0000000000000000^28#20#28#20#565#0#14"Semantic Issue1(3@110"file://localhost/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp0000000000000000^28#20#28#23#565#3#-2@36"Use of undeclared identifier 'frame'-433437038#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@110"file://localhost/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp0000000000000000^30#13#30#13#596#0#14"Semantic Issue--2@36"Use of undeclared identifier 'frame'-433437038#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@110"file://localhost/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp0000000000000000^32#46#32#46#690#0#14"Semantic Issue--2@39"Use of undeclared identifier 'newFrame'-433437038#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@110"file://localhost/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp0000000000000000^33#8#33#8#707#0#14"Semantic Issue--0#0#1#-19%DVTDocumentLocation4@110"file://localhost/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp0000000000000000^3974"CompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/CinderRGBPacketProcessor.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/OSX10.8.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-generated-files.hmap -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-own-target-headers.hmap -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-all-target-headers.hmap -iquote /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-project-headers.hmap -iquote../../../../../include -iquote../include -iquote../../../src -iquote../../../lib/protonect/include -iquote../../../../OpenCV/include -iquote../../../../OpenCV/include/opencv2 -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug/include -I../../../../../boost -I../../../src/freenect -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/DerivedSources/i386 -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/DerivedSources -F/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug -include /var/folders/l3/734tpr_94d93pygw0ffk9lyrccwcl_/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CinderFreenectV2App_Prefix-euewguyctzrylwcbztgxfvricnzo/CinderFreenectV2App_Prefix.pch -MMD -MT dependencies -MF /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/CinderRGBPacketProcessor.d --serialize-diagnostics /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/CinderRGBPacketProcessor.dia -c /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/CinderRGBPacketProcessor.cpp -o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/CinderRGBPacketProcessor.o36"305F402F-8652-4BA4-BD05-F5366306EAA5-
+bB2FAA0FD-0FD0-4745-9884-23900C94EC5E
+
+CCompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/cpu_depth_packet_processor.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/cpu_depth_packet_processor.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s433437037.078676
+e433437039.351863
+r0
+xCompileC
+xbuild/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/cpu_depth_packet_processor.o
+x/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/cpu_depth_packet_processor.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/cpu_depth_packet_processor.cpp:30:10: error: 'opencv2/opencv.hpp' file not found with <angled> include; use "quotes" instead
+o#include <opencv2/opencv.hpp>
+o         ^~~~~~~~~~~~~~~~~~~~
+o         "opencv2/opencv.hpp"
+o/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/cpu_depth_packet_processor.cpp:436:15: warning: unused variable 'phase' [-Wunused-variable]
+o        float phase = m0[0] + m1[0] + m2[0]; // r0.y
+o              ^
+o/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/cpu_depth_packet_processor.cpp:437:15: warning: unused variable 'tmp1' [-Wunused-variable]
+o        float tmp1 = m0[2] + m1[2] + m2[2];  // r0.z
+o              ^
+o/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/cpu_depth_packet_processor.cpp:441:15: warning: unused variable 'tmp2' [-Wunused-variable]
+o        float tmp2 = m0[0] + m1[0] + m2[0]; // r4.z
+o              ^
+o/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/cpu_depth_packet_processor.cpp:443:15: warning: unused variable 'tmp3' [-Wunused-variable]
+o        float tmp3 = m0[2] + m1[2] + m2[2]; // r3.z
+o              ^
+o/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/cpu_depth_packet_processor.cpp:444:15: warning: unused variable 'tmp4' [-Wunused-variable]
+o        float tmp4 = m0[1] + m1[1] + m2[1]; // r3.w
+o              ^
+o5 warnings and 1 error generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/cpu_depth_packet_processor.cpp282"CompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/cpu_depth_packet_processor.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/cpu_depth_packet_processor.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler0740146db9d5b941^a8195a6fb9d5b941^-1467"/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/cpu_depth_packet_processor.cpp:30:10: error: 'opencv2/opencv.hpp' file not found with <angled> include; use "quotes" instead#include <opencv2/opencv.hpp>         ^~~~~~~~~~~~~~~~~~~~         "opencv2/opencv.hpp"/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/cpu_depth_packet_processor.cpp:436:15: warning: unused variable 'phase' [-Wunused-variable]        float phase = m0[0] + m1[0] + m2[0]; // r0.y              ^/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/cpu_depth_packet_processor.cpp:437:15: warning: unused variable 'tmp1' [-Wunused-variable]        float tmp1 = m0[2] + m1[2] + m2[2];  // r0.z              ^/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/cpu_depth_packet_processor.cpp:441:15: warning: unused variable 'tmp2' [-Wunused-variable]        float tmp2 = m0[0] + m1[0] + m2[0]; // r4.z              ^/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/cpu_depth_packet_processor.cpp:443:15: warning: unused variable 'tmp3' [-Wunused-variable]        float tmp3 = m0[2] + m1[2] + m2[2]; // r3.z              ^/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/cpu_depth_packet_processor.cpp:444:15: warning: unused variable 'tmp4' [-Wunused-variable]        float tmp4 = m0[1] + m1[1] + m2[1]; // r3.w              ^5 warnings and 1 error generated.-0#0#1#-19%DVTDocumentLocation2@116"file://localhost/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/cpu_depth_packet_processor.cpp0000000000000000^3994"CompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/cpu_depth_packet_processor.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/cpu_depth_packet_processor.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/OSX10.8.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-generated-files.hmap -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-own-target-headers.hmap -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-all-target-headers.hmap -iquote /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-project-headers.hmap -iquote../../../../../include -iquote../include -iquote../../../src -iquote../../../lib/protonect/include -iquote../../../../OpenCV/include -iquote../../../../OpenCV/include/opencv2 -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug/include -I../../../../../boost -I../../../src/freenect -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/DerivedSources/i386 -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/DerivedSources -F/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug -include /var/folders/l3/734tpr_94d93pygw0ffk9lyrccwcl_/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CinderFreenectV2App_Prefix-euewguyctzrylwcbztgxfvricnzo/CinderFreenectV2App_Prefix.pch -MMD -MT dependencies -MF /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/cpu_depth_packet_processor.d --serialize-diagnostics /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/cpu_depth_packet_processor.dia -c /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/cpu_depth_packet_processor.cpp -o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/cpu_depth_packet_processor.o36"880FB23F-F2C3-43A6-B60A-1AA6E3468CBC-
+bB2FAA0FD-0FD0-4745-9884-23900C94EC5E
+
+CCompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/depth_packet_processor.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/depth_packet_processor.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s433437037.079662
+e433437038.505287
+r1
+xCompileC
+xbuild/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/depth_packet_processor.o
+x/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/depth_packet_processor.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/depth_packet_processor.cpp
+d/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/include/libfreenect2/depth_packet_processor.h
+d/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/include/libfreenect2/frame_listener.h
+d/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/include/libfreenect2/threading.h
+d/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/tinythread/tinythread.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/depth_packet_processor.cpp274"CompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/depth_packet_processor.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/depth_packet_processor.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerf775146db9d5b941^145b816eb9d5b941^---0#0#1#-19%DVTDocumentLocation2@112"file://localhost/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/depth_packet_processor.cpp0000000000000000^3970"CompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/depth_packet_processor.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/depth_packet_processor.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/OSX10.8.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-generated-files.hmap -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-own-target-headers.hmap -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-all-target-headers.hmap -iquote /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-project-headers.hmap -iquote../../../../../include -iquote../include -iquote../../../src -iquote../../../lib/protonect/include -iquote../../../../OpenCV/include -iquote../../../../OpenCV/include/opencv2 -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug/include -I../../../../../boost -I../../../src/freenect -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/DerivedSources/i386 -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/DerivedSources -F/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug -include /var/folders/l3/734tpr_94d93pygw0ffk9lyrccwcl_/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CinderFreenectV2App_Prefix-euewguyctzrylwcbztgxfvricnzo/CinderFreenectV2App_Prefix.pch -MMD -MT dependencies -MF /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/depth_packet_processor.d --serialize-diagnostics /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/depth_packet_processor.dia -c /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/depth_packet_processor.cpp -o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/depth_packet_processor.o36"0D4AB7B6-2FAC-4356-8339-EE0897B4575E-
+bB2FAA0FD-0FD0-4745-9884-23900C94EC5E
+
+CCompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/depth_packet_stream_parser.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/depth_packet_stream_parser.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s433437037.079660
+e433437038.648113
+r0
+xCompileC
+xbuild/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/depth_packet_stream_parser.o
+x/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/depth_packet_stream_parser.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/depth_packet_stream_parser.cpp:27:10: error: 'libfreenect2/depth_packet_stream_parser.h' file not found with <angled> include; use "quotes" instead
+o#include <libfreenect2/depth_packet_stream_parser.h>
+o         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o         "libfreenect2/depth_packet_stream_parser.h"
+oIn file included from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/depth_packet_stream_parser.cpp:27:
+o../../../lib/protonect/include/libfreenect2/depth_packet_stream_parser.h:33:10: error: 'libfreenect2/double_buffer.h' file not found with <angled> include; use "quotes" instead
+o#include <libfreenect2/double_buffer.h>
+o         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o         "libfreenect2/double_buffer.h"
+o../../../lib/protonect/include/libfreenect2/depth_packet_stream_parser.h:34:10: error: 'libfreenect2/depth_packet_processor.h' file not found with <angled> include; use "quotes" instead
+o#include <libfreenect2/depth_packet_processor.h>
+o         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o         "libfreenect2/depth_packet_processor.h"
+o../../../lib/protonect/include/libfreenect2/depth_packet_stream_parser.h:35:10: error: 'libfreenect2/async_packet_processor.h' file not found with <angled> include; use "quotes" instead
+o#include <libfreenect2/async_packet_processor.h>
+o         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o         "libfreenect2/async_packet_processor.h"
+oIn file included from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/depth_packet_stream_parser.cpp:27:
+oIn file included from ../../../lib/protonect/include/libfreenect2/depth_packet_stream_parser.h:35:
+o../../../lib/protonect/include/libfreenect2/async_packet_processor.h:30:10: error: 'libfreenect2/threading.h' file not found with <angled> include; use "quotes" instead
+o#include <libfreenect2/threading.h>
+o         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+o         "libfreenect2/threading.h"
+oIn file included from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/depth_packet_stream_parser.cpp:27:
+o../../../lib/protonect/include/libfreenect2/depth_packet_stream_parser.h:37:10: error: 'libfreenect2/usb/transfer_pool.h' file not found with <angled> include; use "quotes" instead
+o#include <libfreenect2/usb/transfer_pool.h>
+o         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o         "libfreenect2/usb/transfer_pool.h"
+oIn file included from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/depth_packet_stream_parser.cpp:27:
+oIn file included from ../../../lib/protonect/include/libfreenect2/depth_packet_stream_parser.h:37:
+o../../../lib/protonect/include/libfreenect2/usb/transfer_pool.h:30:10: error: 'libusb.h' file not found with <angled> include; use "quotes" instead
+o#include <libusb.h>
+o         ^~~~~~~~~~
+o         "libusb.h"
+o7 errors generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/depth_packet_stream_parser.cpp282"CompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/depth_packet_stream_parser.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/depth_packet_stream_parser.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerc87c146db9d5b941^31efa56eb9d5b941^-2864"/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/depth_packet_stream_parser.cpp:27:10: error: 'libfreenect2/depth_packet_stream_parser.h' file not found with <angled> include; use "quotes" instead#include <libfreenect2/depth_packet_stream_parser.h>         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~         "libfreenect2/depth_packet_stream_parser.h"In file included from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/depth_packet_stream_parser.cpp:27:../../../lib/protonect/include/libfreenect2/depth_packet_stream_parser.h:33:10: error: 'libfreenect2/double_buffer.h' file not found with <angled> include; use "quotes" instead#include <libfreenect2/double_buffer.h>         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~         "libfreenect2/double_buffer.h"../../../lib/protonect/include/libfreenect2/depth_packet_stream_parser.h:34:10: error: 'libfreenect2/depth_packet_processor.h' file not found with <angled> include; use "quotes" instead#include <libfreenect2/depth_packet_processor.h>         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~         "libfreenect2/depth_packet_processor.h"../../../lib/protonect/include/libfreenect2/depth_packet_stream_parser.h:35:10: error: 'libfreenect2/async_packet_processor.h' file not found with <angled> include; use "quotes" instead#include <libfreenect2/async_packet_processor.h>         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~         "libfreenect2/async_packet_processor.h"In file included from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/depth_packet_stream_parser.cpp:27:In file included from ../../../lib/protonect/include/libfreenect2/depth_packet_stream_parser.h:35:../../../lib/protonect/include/libfreenect2/async_packet_processor.h:30:10: error: 'libfreenect2/threading.h' file not found with <angled> include; use "quotes" instead#include <libfreenect2/threading.h>         ^~~~~~~~~~~~~~~~~~~~~~~~~~         "libfreenect2/threading.h"In file included from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/depth_packet_stream_parser.cpp:27:../../../lib/protonect/include/libfreenect2/depth_packet_stream_parser.h:37:10: error: 'libfreenect2/usb/transfer_pool.h' file not found with <angled> include; use "quotes" instead#include <libfreenect2/usb/transfer_pool.h>         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~         "libfreenect2/usb/transfer_pool.h"In file included from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/depth_packet_stream_parser.cpp:27:In file included from ../../../lib/protonect/include/libfreenect2/depth_packet_stream_parser.h:37:../../../lib/protonect/include/libfreenect2/usb/transfer_pool.h:30:10: error: 'libusb.h' file not found with <angled> include; use "quotes" instead#include <libusb.h>         ^~~~~~~~~~         "libusb.h"7 errors generated.-0#0#1#-19%DVTDocumentLocation2@116"file://localhost/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/depth_packet_stream_parser.cpp0000000000000000^3994"CompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/depth_packet_stream_parser.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/depth_packet_stream_parser.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/OSX10.8.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-generated-files.hmap -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-own-target-headers.hmap -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-all-target-headers.hmap -iquote /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-project-headers.hmap -iquote../../../../../include -iquote../include -iquote../../../src -iquote../../../lib/protonect/include -iquote../../../../OpenCV/include -iquote../../../../OpenCV/include/opencv2 -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug/include -I../../../../../boost -I../../../src/freenect -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/DerivedSources/i386 -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/DerivedSources -F/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug -include /var/folders/l3/734tpr_94d93pygw0ffk9lyrccwcl_/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CinderFreenectV2App_Prefix-euewguyctzrylwcbztgxfvricnzo/CinderFreenectV2App_Prefix.pch -MMD -MT dependencies -MF /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/depth_packet_stream_parser.d --serialize-diagnostics /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/depth_packet_stream_parser.dia -c /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/depth_packet_stream_parser.cpp -o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/depth_packet_stream_parser.o36"6D0797B0-406C-416C-A6D4-22E94E420905-
+bB2FAA0FD-0FD0-4745-9884-23900C94EC5E
+
+CCompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/double_buffer.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/double_buffer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s433437037.079673
+e433437038.465754
+r1
+xCompileC
+xbuild/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/double_buffer.o
+x/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/double_buffer.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/double_buffer.cpp
+d/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/include/libfreenect2/double_buffer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/double_buffer.cpp256"CompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/double_buffer.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/double_buffer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler8a77146db9d5b941^1d3c776eb9d5b941^---0#0#1#-19%DVTDocumentLocation2@103"file://localhost/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/double_buffer.cpp0000000000000000^3916"CompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/double_buffer.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/double_buffer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/OSX10.8.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-generated-files.hmap -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-own-target-headers.hmap -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-all-target-headers.hmap -iquote /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-project-headers.hmap -iquote../../../../../include -iquote../include -iquote../../../src -iquote../../../lib/protonect/include -iquote../../../../OpenCV/include -iquote../../../../OpenCV/include/opencv2 -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug/include -I../../../../../boost -I../../../src/freenect -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/DerivedSources/i386 -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/DerivedSources -F/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug -include /var/folders/l3/734tpr_94d93pygw0ffk9lyrccwcl_/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CinderFreenectV2App_Prefix-euewguyctzrylwcbztgxfvricnzo/CinderFreenectV2App_Prefix.pch -MMD -MT dependencies -MF /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/double_buffer.d --serialize-diagnostics /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/double_buffer.dia -c /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/double_buffer.cpp -o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/double_buffer.o36"8546BB78-45B6-4CE0-8BEF-6DEC250AAD44-
+bB2FAA0FD-0FD0-4745-9884-23900C94EC5E
+
+CCompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/event_loop.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/event_loop.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s433437037.079664
+e433437038.648137
+r0
+xCompileC
+xbuild/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/event_loop.o
+x/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/event_loop.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/event_loop.cpp:27:10: error: 'libfreenect2/usb/event_loop.h' file not found with <angled> include; use "quotes" instead
+o#include <libfreenect2/usb/event_loop.h>
+o         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o         "libfreenect2/usb/event_loop.h"
+oIn file included from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/event_loop.cpp:27:
+o../../../lib/protonect/include/libfreenect2/usb/event_loop.h:30:10: error: 'libfreenect2/threading.h' file not found with <angled> include; use "quotes" instead
+o#include <libfreenect2/threading.h>
+o         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+o         "libfreenect2/threading.h"
+o/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/event_loop.cpp:29:10: error: 'libusb.h' file not found with <angled> include; use "quotes" instead
+o#include <libusb.h>
+o         ^~~~~~~~~~
+o         "libusb.h"
+o3 errors generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/event_loop.cpp250"CompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/event_loop.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/event_loop.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler0876146db9d5b941^13f2a56eb9d5b941^-942"/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/event_loop.cpp:27:10: error: 'libfreenect2/usb/event_loop.h' file not found with <angled> include; use "quotes" instead#include <libfreenect2/usb/event_loop.h>         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~         "libfreenect2/usb/event_loop.h"In file included from /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/event_loop.cpp:27:../../../lib/protonect/include/libfreenect2/usb/event_loop.h:30:10: error: 'libfreenect2/threading.h' file not found with <angled> include; use "quotes" instead#include <libfreenect2/threading.h>         ^~~~~~~~~~~~~~~~~~~~~~~~~~         "libfreenect2/threading.h"/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/event_loop.cpp:29:10: error: 'libusb.h' file not found with <angled> include; use "quotes" instead#include <libusb.h>         ^~~~~~~~~~         "libusb.h"3 errors generated.-0#0#1#-19%DVTDocumentLocation2@100"file://localhost/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/event_loop.cpp0000000000000000^3898"CompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/event_loop.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/event_loop.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/OSX10.8.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-generated-files.hmap -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-own-target-headers.hmap -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-all-target-headers.hmap -iquote /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-project-headers.hmap -iquote../../../../../include -iquote../include -iquote../../../src -iquote../../../lib/protonect/include -iquote../../../../OpenCV/include -iquote../../../../OpenCV/include/opencv2 -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug/include -I../../../../../boost -I../../../src/freenect -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/DerivedSources/i386 -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/DerivedSources -F/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug -include /var/folders/l3/734tpr_94d93pygw0ffk9lyrccwcl_/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CinderFreenectV2App_Prefix-euewguyctzrylwcbztgxfvricnzo/CinderFreenectV2App_Prefix.pch -MMD -MT dependencies -MF /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/event_loop.d --serialize-diagnostics /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/event_loop.dia -c /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/event_loop.cpp -o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/event_loop.o36"C64242BD-1EA9-41A3-A93A-7FAC61293DCF-
+bB2FAA0FD-0FD0-4745-9884-23900C94EC5E
+
+CCompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/frame_listener.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/frame_listener.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s433437038.467379
+e433437039.653970
+r1
+xCompileC
+xbuild/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/frame_listener.o
+x/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/frame_listener.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/frame_listener.cpp
+d/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/include/libfreenect2/frame_listener.h
+d/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/include/libfreenect2/threading.h
+d/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/tinythread/tinythread.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/frame_listener.cpp258"CompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/frame_listener.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/frame_listener.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler47c9776eb9d5b941^db6da76fb9d5b941^---0#0#1#-19%DVTDocumentLocation2@104"file://localhost/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/frame_listener.cpp0000000000000000^3922"CompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/frame_listener.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/frame_listener.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/OSX10.8.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-generated-files.hmap -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-own-target-headers.hmap -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-all-target-headers.hmap -iquote /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-project-headers.hmap -iquote../../../../../include -iquote../include -iquote../../../src -iquote../../../lib/protonect/include -iquote../../../../OpenCV/include -iquote../../../../OpenCV/include/opencv2 -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug/include -I../../../../../boost -I../../../src/freenect -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/DerivedSources/i386 -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/DerivedSources -F/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug -include /var/folders/l3/734tpr_94d93pygw0ffk9lyrccwcl_/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CinderFreenectV2App_Prefix-euewguyctzrylwcbztgxfvricnzo/CinderFreenectV2App_Prefix.pch -MMD -MT dependencies -MF /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/frame_listener.d --serialize-diagnostics /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/frame_listener.dia -c /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/frame_listener.cpp -o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/frame_listener.o36"5E4624B5-B18E-4E82-A140-2408D886EE01-
+bB2FAA0FD-0FD0-4745-9884-23900C94EC5E
+
+CCompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/resource.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/resource.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s433437038.507309
+e433437039.552924
+r1
+xCompileC
+xbuild/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/resource.o
+x/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/resource.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/resource.cpp
+d/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/include/libfreenect2/resource.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/resource.cpp246"CompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/resource.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/resource.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler59fd816eb9d5b941^eb8e8d6fb9d5b941^---0#0#1#-19%DVTDocumentLocation2@98"file://localhost/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/resource.cpp0000000000000000^3886"CompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/resource.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/resource.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/OSX10.8.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-generated-files.hmap -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-own-target-headers.hmap -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-all-target-headers.hmap -iquote /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-project-headers.hmap -iquote../../../../../include -iquote../include -iquote../../../src -iquote../../../lib/protonect/include -iquote../../../../OpenCV/include -iquote../../../../OpenCV/include/opencv2 -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug/include -I../../../../../boost -I../../../src/freenect -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/DerivedSources/i386 -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/DerivedSources -F/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug -include /var/folders/l3/734tpr_94d93pygw0ffk9lyrccwcl_/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CinderFreenectV2App_Prefix-euewguyctzrylwcbztgxfvricnzo/CinderFreenectV2App_Prefix.pch -MMD -MT dependencies -MF /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/resource.d --serialize-diagnostics /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/resource.dia -c /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/resource.cpp -o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/resource.o36"F5B72829-2380-4B1C-A548-05C7DDA9E916-
+bB2FAA0FD-0FD0-4745-9884-23900C94EC5E
+
+CCompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/rgb_packet_processor.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/rgb_packet_processor.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/rgb_packet_stream_parser.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/rgb_packet_stream_parser.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/tinythread.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/tinythread/tinythread.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/Objects-normal/i386/transfer_pool.o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/lib/protonect/src/transfer_pool.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCpResource /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/resources/CinderApp.icns build/Debug/CinderFreenectV2App.app/Contents/Resources/CinderApp.icns
+s433437032.574547
+e433437032.580333
+r1
+xCpResource
+x/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/resources/CinderApp.icns
+xbuild/Debug/CinderFreenectV2App.app/Contents/Resources/CinderApp.icns
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy build/Debug/CinderFreenectV2App.app/Contents/Resources/CinderApp.icns185"CpResource /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/resources/CinderApp.icns build/Debug/CinderFreenectV2App.app/Contents/Resources/CinderApp.icns3a229368b9d5b941^2a919468b9d5b941^---0#0#1#-19%DVTDocumentLocation2@171"file://localhost/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug/CinderFreenectV2App.app/Contents/Resources/CinderApp.icns0038e863deffdf42^637"CpResource /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/resources/CinderApp.icns build/Debug/CinderFreenectV2App.app/Contents/Resources/CinderApp.icns    cd /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/resources/CinderApp.icns /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug/CinderFreenectV2App.app/Contents/Resources36"3505D1C7-6484-4C78-9C7D-3860BE79C23F-
+bB2FAA0FD-0FD0-4745-9884-23900C94EC5E
+
+CLd /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug/CinderFreenectV2App.app/Contents/MacOS/CinderFreenectV2App normal i386
+r0
+
+CProcessInfoPlistFile /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug/CinderFreenectV2App.app/Contents/Info.plist /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/Info.plist
+s433437032.562636
+e433437032.566711
+r1
+xProcessInfoPlistFile
+x/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug/CinderFreenectV2App.app/Contents/Info.plist
+x/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Process /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/Info.plist87"ProcessInfoPlistFile build/Debug/CinderFreenectV2App.app/Contents/Info.plist Info.plistce169068b9d5b941^4d149168b9d5b941^---0#0#1#-19%DVTDocumentLocation2@112"file://localhost/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/Info.plist0000000000000000^641"ProcessInfoPlistFile build/Debug/CinderFreenectV2App.app/Contents/Info.plist Info.plist    cd /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode    builtin-infoPlistUtility /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/Info.plist -genpkginfo /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug/CinderFreenectV2App.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug/CinderFreenectV2App.app/Contents/Info.plist36"53673C2A-D6CC-405F-B46A-F15DAFBA8980-
+bB2FAA0FD-0FD0-4745-9884-23900C94EC5E
+
+CProcessPCH++ /Users/vgusev/Library/Developer/Xcode/DerivedData/CinderFreenectV2App-ddmivpjuwvuldgggnhvebdvkuqna/Index/PrecompiledHeaders/CinderFreenectV2App_Prefix-aqifbsluwxfsxlhebezxwhzuzakd_ast/CinderFreenectV2App_Prefix.pch.pch CinderFreenectV2App_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/l3/734tpr_94d93pygw0ffk9lyrccwcl_/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CinderFreenectV2App_Prefix-euewguyctzrylwcbztgxfvricnzo/CinderFreenectV2App_Prefix.pch.pch CinderFreenectV2App_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s433437032.589324
+e433437037.067482
+r1
+xProcessPCH++
+x/var/folders/l3/734tpr_94d93pygw0ffk9lyrccwcl_/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CinderFreenectV2App_Prefix-euewguyctzrylwcbztgxfvricnzo/CinderFreenectV2App_Prefix.pch.pch
+xCinderFreenectV2App_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/CinderFreenectV2App_Prefix.pch
+d/Users/vgusev/repos/Cinder/include/cinder/Cinder.h
+d/Users/vgusev/repos/Cinder/boost/boost/version.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/checked_delete.hpp
+d/Users/vgusev/repos/Cinder/include/cinder/app/AppBasic.h
+d/Users/vgusev/repos/Cinder/include/cinder/app/App.h
+d/Users/vgusev/repos/Cinder/include/cinder/app/Renderer.h
+d/Users/vgusev/repos/Cinder/include/cinder/MatrixStack.h
+d/Users/vgusev/repos/Cinder/include/cinder/Matrix.h
+d/Users/vgusev/repos/Cinder/include/cinder/CinderMath.h
+d/Users/vgusev/repos/Cinder/include/cinder/Matrix22.h
+d/Users/vgusev/repos/Cinder/include/cinder/Vector.h
+d/Users/vgusev/repos/Cinder/include/cinder/MatrixAffine2.h
+d/Users/vgusev/repos/Cinder/include/cinder/Matrix33.h
+d/Users/vgusev/repos/Cinder/include/cinder/Matrix44.h
+d/Users/vgusev/repos/Cinder/include/cinder/MatrixAlgo.h
+d/Users/vgusev/repos/Cinder/include/cinder/gl/gl.h
+d/Users/vgusev/repos/Cinder/include/cinder/Exception.h
+d/Users/vgusev/repos/Cinder/include/cinder/Quaternion.h
+d/Users/vgusev/repos/Cinder/include/cinder/Color.h
+d/Users/vgusev/repos/Cinder/include/cinder/ChanTraits.h
+d/Users/vgusev/repos/Cinder/include/cinder/Rect.h
+d/Users/vgusev/repos/Cinder/include/cinder/Area.h
+d/Users/vgusev/repos/Cinder/include/cinder/Font.h
+d/Users/vgusev/repos/Cinder/include/cinder/Shape2d.h
+d/Users/vgusev/repos/Cinder/include/cinder/Path2d.h
+d/Users/vgusev/repos/Cinder/include/cinder/BSpline.h
+d/Users/vgusev/repos/Cinder/include/cinder/DataSource.h
+d/Users/vgusev/repos/Cinder/include/cinder/Url.h
+d/Users/vgusev/repos/Cinder/include/cinder/Stream.h
+d/Users/vgusev/repos/Cinder/include/cinder/Buffer.h
+d/Users/vgusev/repos/Cinder/include/cinder/Filesystem.h
+d/Users/vgusev/repos/Cinder/boost/boost/filesystem.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/filesystem/config.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/config.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/config/user.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/config/select_compiler_config.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/config/compiler/clang.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/config/select_stdlib_config.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/config/no_tr1/utility.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/config/stdlib/libcpp.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/config/select_platform_config.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/config/platform/macos.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/config/posix_features.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/config/suffix.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/system/api_config.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/detail/workaround.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/config/auto_link.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/filesystem/path.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/filesystem/path_traits.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/utility/enable_if.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/is_array.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/config.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/detail/bool_trait_def.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/detail/template_arity_spec.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/int.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/int_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/adl_barrier.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/config/adl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/config/msvc.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/config/intel.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/config/gcc.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/config/workaround.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/nttp_decl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/config/nttp.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/integral_wrapper.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/integral_c_tag.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/config/static_constant.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/static_cast.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/cat.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/config/config.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/template_arity_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/preprocessor/params.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/config/preprocessor.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/comma_if.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/punctuation/comma_if.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/control/if.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/control/iif.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/logical/bool.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/facilities/empty.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/punctuation/comma.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/repeat.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/repetition/repeat.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/debug/error.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/detail/auto_rec.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/tuple/eat.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/inc.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/arithmetic/inc.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/config/lambda.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/config/ttp.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/config/ctps.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/config/overload_resolution.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/integral_constant.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/bool.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/bool_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/integral_c.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/integral_c_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/lambda_support.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/detail/bool_trait_undef.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/decay.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/is_function.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/is_reference.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/is_lvalue_reference.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/is_rvalue_reference.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/ice.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/detail/yes_no_type.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/detail/ice_or.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/detail/ice_and.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/detail/ice_not.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/detail/ice_eq.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/detail/false_result.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/detail/is_function_ptr_helper.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/remove_bounds.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/detail/type_trait_def.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/detail/type_trait_undef.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/add_pointer.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/remove_reference.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/broken_compiler_spec.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/eval_if.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/if.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/value_wknd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/config/integral.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/config/eti.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/na_spec.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/lambda_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/void_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/na.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/na_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/lambda_arity_param.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/arity.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/config/dtp.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/preprocessor/enum.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/preprocessor/def_params_tail.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/limits/arity.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/logical/and.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/logical/bitand.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/identity.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/facilities/identity.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/empty.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/arithmetic/add.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/arithmetic/dec.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/control/while.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/list/fold_left.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/list/detail/fold_left.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/control/expr_iif.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/list/adt.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/detail/is_binary.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/detail/check.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/logical/compl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/list/fold_right.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/list/detail/fold_right.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/list/reverse.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/control/detail/while.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/tuple/elem.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/facilities/overload.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/variadic/size.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/tuple/rem.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/variadic/elem.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/arithmetic/sub.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/identity.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/system/error_code.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/system/config.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/cstdint.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/assert.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/current_function.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/operators.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iterator.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/noncopyable.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/cerrno.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/config/abi_prefix.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/config/abi_suffix.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/system/system_error.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iterator/iterator_facade.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iterator/interoperable.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/or.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/config/use_preprocessed.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/nested_type_wknd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/include_preprocessed.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/config/compiler.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/stringize.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/preprocessed/gcc/or.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/is_convertible.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/intrinsics.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/is_same.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/is_volatile.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/detail/cv_traits_impl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/is_abstract.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iterator/detail/config_def.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iterator/detail/config_undef.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iterator/iterator_traits.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/detail/iterator.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iterator/detail/facade_iterator_category.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iterator/iterator_categories.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/placeholders.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/arg.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/arg_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/na_assert.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/assert.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/not.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/yes_no.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/config/arrays.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/config/pp_counter.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/arity_spec.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/arg_typedef.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/preprocessed/gcc/arg.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/static_assert.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/and.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/preprocessed/gcc/and.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/is_const.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/detail/indirect_traits.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/is_pointer.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/is_member_pointer.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/is_member_function_pointer.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/detail/is_mem_fun_pointer_impl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/remove_cv.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/is_class.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/remove_pointer.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iterator/detail/enable_if.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/utility/addressof.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/add_const.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/remove_const.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/is_pod.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/is_void.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/is_scalar.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/is_arithmetic.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/is_integral.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/is_float.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/is_enum.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/always.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/apply.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/apply_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/apply_wrap.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/has_apply.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/has_xxx.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/type_wrapper.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/config/has_xxx.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/config/msvc_typename.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/array/elem.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/array/data.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/array/size.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/repetition/enum_params.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/repetition/enum_trailing_params.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/config/has_apply.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/msvc_never_true.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/lambda.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/bind.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/bind_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/config/bind.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/next.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/next_prior.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/common_name_wknd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/protect.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/preprocessed/gcc/bind.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/full_lambda.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/quote.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/void.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/has_type.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/config/bcc.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/preprocessed/gcc/quote.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/template_arity.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/preprocessed/gcc/apply.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/shared_ptr.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/smart_ptr/shared_ptr.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/config/no_tr1/memory.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/throw_exception.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/smart_ptr/detail/shared_count.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/smart_ptr/bad_weak_ptr.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/smart_ptr/detail/sp_counted_base.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/smart_ptr/detail/sp_has_sync.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/smart_ptr/detail/sp_counted_base_gcc_x86.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/detail/sp_typeinfo.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/smart_ptr/detail/sp_counted_impl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/smart_ptr/detail/sp_convertible.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/smart_ptr/detail/sp_nullptr_t.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/smart_ptr/detail/spinlock_pool.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/smart_ptr/detail/spinlock.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/smart_ptr/detail/spinlock_sync.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/smart_ptr/detail/yield_k.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/memory_order.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/smart_ptr/detail/operator_bool.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/io/detail/quoted_manip.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/io/ios_state.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/io_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/functional/hash_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/functional/hash/hash_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/filesystem/operations.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/detail/scoped_enum_emulation.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/detail/bitmask.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/filesystem/convenience.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/concepts.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/categories.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/default_arg.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/ios.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/config/wide_streams.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/positioning.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/integer_traits.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/limits.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/config/codecvt.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/config/fpos.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/config/disable_warnings.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/config/enable_warnings.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/stream.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/constants.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/char_traits.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/config/overload_resolution.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/config/gcc.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/forward.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/config/limits.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/push_params.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/repetition/enum_binary_params.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/repetition/repeat_from_to.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/iostream.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/select.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/is_base_and_derived.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/stream_buffer.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/streambuf/direct_streambuf.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/error.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/execute.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/iteration/local.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/slot/slot.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/slot/detail/def.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/utility/result_of.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/iteration/iterate.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/repetition/enum_shifted_params.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/facilities/intercept.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/utility/declval.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/add_rvalue_reference.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/iteration/detail/iter/forward1.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/iteration/detail/bounds/lower1.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/slot/detail/shared.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/iteration/detail/bounds/upper1.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/utility/detail/result_of_iterate.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/iteration/detail/local.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/functional.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/close.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/flush.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/dispatch.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/traits.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/bool_trait_def.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/template_params.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/control/expr_if.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/is_iterator_range.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/select_by_size.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/wrap_unwrap.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/enable_if_stream.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/traits_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/ref.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/range/iterator_range.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/range/iterator_range_core.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/range/functions.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/range/begin.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/range/config.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/range/iterator.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/range/mutable_iterator.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/range/detail/extract_optional_type.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/range/const_iterator.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/range/end.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/range/detail/implementation_help.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/range/detail/common.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/range/detail/sfinae.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/range/size.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/range/size_type.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/range/difference_type.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/make_unsigned.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/is_signed.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/is_unsigned.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/add_volatile.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/range/distance.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/range/empty.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/range/rbegin.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/range/reverse_iterator.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iterator/reverse_iterator.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/next_prior.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iterator/iterator_adaptor.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/add_reference.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/range/rend.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/range/algorithm/equal.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/range/concepts.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/concept_check.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/concept/assert.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/concept/detail/general.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/concept/detail/backward_compatibility.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/concept/detail/has_constraints.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/conversion_traits.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/concept/usage.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/concept/detail/concept_def.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/seq/for_each_i.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/repetition/for.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/repetition/detail/for.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/seq/seq.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/seq/elem.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/seq/size.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/seq/enum.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/concept/detail/concept_undef.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iterator/iterator_concepts.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/range/value_type.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/range/detail/misc_concept.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/range/detail/safe_bool.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/range/iterator_range_io.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/streambuf.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/operations_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/adapter/non_blocking_adapter.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/read.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/char_traits.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/seek.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/write.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/optional.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/aligned_storage.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/aligned_storage.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/alignment_of.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/detail/size_t_trait_def.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/size_t.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/size_t_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/detail/size_t_trait_undef.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/type_with_alignment.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/list/for_each_i.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/tuple/to_list.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/list/transform.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/list/append.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/streambuf/linked_streambuf.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/operations.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/imbue.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/input_sequence.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/optimal_buffer_size.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/output_sequence.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/streambuf/indirect_streambuf.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/adapter/concept_adapter.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/call_traits.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/config/unreachable_return.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/device/null.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/buffer.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/checked_operations.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/get.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/put.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/double_object.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/call_traits.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/detail/call_traits.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/push.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/adapter/range_adapter.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/pipeline.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/resolve.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/detail/is_incrementable.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/adapter/mode_adapter.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/adapter/output_iterator_adapter.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/detail/is_dereferenceable.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/iostreams/device/array.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/utility/base_from_member.hpp
+d/Users/vgusev/repos/Cinder/include/cinder/PolyLine.h
+d/Users/vgusev/repos/Cinder/include/cinder/AxisAlignedBox.h
+d/Users/vgusev/repos/Cinder/include/cinder/Ray.h
+d/Users/vgusev/repos/Cinder/include/cinder/Surface.h
+d/Users/vgusev/repos/Cinder/include/cinder/Channel.h
+d/Users/vgusev/repos/Cinder/boost/boost/logic/tribool.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/logic/tribool_fwd.hpp
+d/Users/vgusev/repos/Cinder/include/cinder/Display.h
+d/Users/vgusev/repos/Cinder/include/cinder/Function.h
+d/Users/vgusev/repos/Cinder/boost/boost/signals2.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/deconstruct.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/deconstruct_ptr.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/postconstructible.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/predestructible.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/dummy_mutex.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/last_value.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/optional.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/optional/optional.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/has_nothrow_constructor.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/has_trivial_constructor.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/detail/reference_content.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/has_nothrow_copy.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/has_trivial_copy.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/none.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/none_t.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/utility/swap.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/utility/compare_pointees.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/utility/in_place_factory.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/utility/detail/in_place_factory_prefix.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/punctuation/paren.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/repetition/enum.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/utility/detail/in_place_factory_suffix.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/optional/optional_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/expired_slot.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/signal.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/function.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/iterate.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/function/detail/prologue.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/config/no_tr1/functional.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/function/function_base.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/integer.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/integer_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/has_trivial_destructor.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/composite_traits.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/is_union.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/function_equal.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/function/function_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mem_fn.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/bind/mem_fn.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/get_pointer.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/bind/mem_fn_template.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/bind/mem_fn_cc.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/enum.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/enum_params.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/function/detail/function_iterate.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/function/detail/maybe_include.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/function/function_template.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/detail/no_exceptions_support.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/connection.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/detail/null_output_iterator.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/function_output_iterator.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/detail/unique_lock.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/slot.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/bind.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/bind/bind.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/is_placeholder.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/bind/arg.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/visit_each.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/bind/storage.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/bind/bind_template.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/bind/bind_cc.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/bind/bind_mf_cc.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/bind/bind_mf2_cc.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/bind/placeholders.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/detail/signals_common.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/signal_base.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/is_base_of.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/detail/signals_common_macros.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/detail/tracked_objects_visitor.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/slot_base.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/weak_ptr.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/smart_ptr/weak_ptr.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/detail/foreign_ptr.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/scoped_ptr.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/smart_ptr/scoped_ptr.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/variant/apply_visitor.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/variant/detail/apply_visitor_unary.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/variant/detail/generic_result_type.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/variant/detail/apply_visitor_binary.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/variant/detail/apply_visitor_delayed.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/variant/variant.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/variant/detail/config.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/variant/variant_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/blank_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/enum_shifted_params.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/limits/list.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/variant/detail/substitute_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/variant/detail/backup_holder.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/variant/detail/enable_recursive_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/variant/detail/forced_return.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/variant/detail/initializer.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/variant/recursive_wrapper_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/variant/detail/move.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/move/move.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/move/detail/config_begin.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/move/utility.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/move/core.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/move/detail/config_end.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/move/detail/meta_utils.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/move/iterator.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/move/traits.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/is_nothrow_move_constructible.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/has_trivial_move_constructor.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/is_nothrow_move_assignable.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/has_trivial_move_assign.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/has_nothrow_assign.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/has_trivial_assign.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/move/algorithm.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/iter_fold.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/begin_end.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/begin_end_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/begin_end_impl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/sequence_tag_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/has_begin.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/traits_lambda_spec.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/sequence_tag.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/has_tag.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/is_msvc_eti_arg.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/O1_size.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/O1_size_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/O1_size_impl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/long.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/long_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/has_size.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/config/forwarding.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/iter_fold_impl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/preprocessed/gcc/iter_fold_impl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/deref.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/msvc_type.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/pair.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/msvc_eti_base.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/variant/detail/make_variant_list.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/list.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/list/list20.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/list/list10.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/list/list0.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/list/aux_/push_front.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/push_front_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/list/aux_/item.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/list/aux_/tag.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/list/aux_/pop_front.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/pop_front_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/list/aux_/push_back.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/push_back_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/list/aux_/front.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/front_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/list/aux_/clear.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/clear_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/list/aux_/O1_size.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/list/aux_/size.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/size_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/list/aux_/empty.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/empty_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/list/aux_/begin_end.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/list/aux_/iterator.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/iterator_tags.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/lambda_spec.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/list/aux_/include_preprocessed.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/list/aux_/preprocessed/plain/list10.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/list/aux_/preprocessed/plain/list20.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/preprocessed/gcc/list.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/variant/detail/over_sequence.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/variant/detail/visitation_impl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/variant/detail/cast_storage.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/variant/detail/hash_variant.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/variant/static_visitor.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/blank.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/detail/templated_streams.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/is_empty.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/is_stateless.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/math/common_factor_ct.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/math_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/empty.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/empty_impl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/find_if.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/find_if_pred.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/iter_apply.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/iter_fold_if.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/logical.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/iter_fold_if_impl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/preprocessed/gcc/iter_fold_if_impl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/fold.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/fold_impl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/preprocessed/gcc/fold_impl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/front.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/front_impl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/is_sequence.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/iterator_range.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/max_element.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/less.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/comparison_op.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/numeric_op.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/numeric_cast.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/tag.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/numeric_cast_utils.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/preprocessed/gcc/less.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/push_front.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/push_front_impl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/same_as.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/sizeof.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/transform.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/reverse_fold.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/reverse_fold_impl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/preprocessed/gcc/reverse_fold_impl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/pair_view.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/iterator_category.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/advance.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/advance_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/negate.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/advance_forward.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/preprocessed/gcc/advance_forward.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/advance_backward.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/prior.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/preprocessed/gcc/advance_backward.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/distance.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/distance_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/min_max.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/inserter_algorithm.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/back_inserter.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/push_back.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/push_back_impl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/inserter.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/front_inserter.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/clear.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/clear_impl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/preprocessor/default_params.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/variant/detail/variant_io.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/trackable.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/variadic_slot.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/detail/variadic_arg_type.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/detail/slot_template.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/detail/replace_slot_function.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/detail/result_type_wrapper.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/detail/slot_groups.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/detail/slot_call_iterator.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/detail/auto_buffer.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/multi_index/detail/scope_guard.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/swap.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/optional_last_value.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/mutex.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/detail/lwm_pthreads.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/variadic_signal.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/detail/variadic_slot_invoker.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/type_traits/function_traits.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/detail/signal_template.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/signal_type.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/parameter.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/parameter/parameters.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/detail/is_xxx.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/repetition/enum_shifted.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/parameter/aux_/arg_list.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/parameter/aux_/void.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/parameter/aux_/result_of0.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/parameter/aux_/default.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/parameter/aux_/parameter_requirements.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/parameter/aux_/yesno.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/parameter/aux_/is_maybe.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/parameter/config.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/begin.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/end.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/parameter/aux_/unwrap_cv_reference.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/parameter/aux_/tagged_argument.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/parameter/aux_/tag.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/parameter/aux_/template_keyword.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/parameter/aux_/set.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/insert.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/insert_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/insert_impl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/set/set0.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/set/aux_/at_impl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/at_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/set/aux_/has_key_impl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/set/aux_/tag.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/has_key_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/overload_names.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/ptr_to_ref.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/config/operators.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/set/aux_/clear_impl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/set/aux_/set0.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/set/aux_/size_impl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/set/aux_/empty_impl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/set/aux_/insert_impl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/set/aux_/item.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/base.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/set/aux_/erase_impl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/erase_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/set/aux_/erase_key_impl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/erase_key_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/set/aux_/key_type_impl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/key_type_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/set/aux_/value_type_impl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/value_type_fwd.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/set/aux_/begin_end_impl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/set/aux_/iterator.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/has_key.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/mpl/aux_/has_key_impl.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/parameter/aux_/overloads.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/parameter/keyword.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/parameter/binding.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/parameter/value_type.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/parameter/macros.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/parameter/match.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/parameter/name.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/parameter/preprocessor.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/parameter/aux_/parenthesized_type.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/parameter/aux_/cast.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/parameter/aux_/preprocessor/flatten.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/seq/for_each.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/selection/max.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/comparison/less_equal.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/logical/not.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/repetition/enum_trailing.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/parameter/aux_/preprocessor/for_each.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/detail/split.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/facilities/is_empty.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/for.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/repetition/deduce_r.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/comparison/equal.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/comparison/not_equal.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/seq/first_n.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/seq/detail/split.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/seq/for_each_product.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/seq/fold_left.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/seq/push_back.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/preprocessor/detail/is_nullary.hpp
+d/Users/vgusev/repos/Cinder/boost/boost/signals2/shared_connection_block.hpp
+d/Users/vgusev/repos/Cinder/include/cinder/app/Window.h
+d/Users/vgusev/repos/Cinder/include/cinder/app/MouseEvent.h
+d/Users/vgusev/repos/Cinder/include/cinder/app/Event.h
+d/Users/vgusev/repos/Cinder/include/cinder/app/TouchEvent.h
+d/Users/vgusev/repos/Cinder/include/cinder/app/KeyEvent.h
+d/Users/vgusev/repos/Cinder/include/cinder/app/FileDropEvent.h
+d/Users/vgusev/repos/Cinder/include/cinder/Timer.h
+d/Users/vgusev/repos/Cinder/include/cinder/Thread.h
+d/Users/vgusev/repos/Cinder/include/cinder/cocoa/CinderCocoa.h
+d/Users/vgusev/repos/Cinder/include/cinder/ImageIo.h
+d/Users/vgusev/repos/Cinder/include/cinder/DataTarget.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile CinderFreenectV2App_Prefix.pch312"ProcessPCH++ /var/folders/l3/734tpr_94d93pygw0ffk9lyrccwcl_/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CinderFreenectV2App_Prefix-euewguyctzrylwcbztgxfvricnzo/CinderFreenectV2App_Prefix.pch.pch CinderFreenectV2App_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler99f19668b9d5b941^8d47116db9d5b941^---0#0#1#-19%DVTDocumentLocation2@132"file://localhost/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/CinderFreenectV2App_Prefix.pch0000000000000000^3859"ProcessPCH++ /var/folders/l3/734tpr_94d93pygw0ffk9lyrccwcl_/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CinderFreenectV2App_Prefix-euewguyctzrylwcbztgxfvricnzo/CinderFreenectV2App_Prefix.pch.pch CinderFreenectV2App_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/OSX10.8.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-generated-files.hmap -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-own-target-headers.hmap -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-all-target-headers.hmap -iquote /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/CinderFreenectV2App-project-headers.hmap -iquote../../../../../include -iquote../include -iquote../../../src -iquote../../../lib/protonect/include -iquote../../../../OpenCV/include -iquote../../../../OpenCV/include/opencv2 -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug/include -I../../../../../boost -I../../../src/freenect -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/DerivedSources/i386 -I/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/CinderFreenectV2App.build/Debug/CinderFreenectV2App.build/DerivedSources -F/Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug --serialize-diagnostics /var/folders/l3/734tpr_94d93pygw0ffk9lyrccwcl_/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CinderFreenectV2App_Prefix-euewguyctzrylwcbztgxfvricnzo/CinderFreenectV2App_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/l3/734tpr_94d93pygw0ffk9lyrccwcl_/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CinderFreenectV2App_Prefix-euewguyctzrylwcbztgxfvricnzo/CinderFreenectV2App_Prefix.pch.d -c /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/CinderFreenectV2App_Prefix.pch -o /var/folders/l3/734tpr_94d93pygw0ffk9lyrccwcl_/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CinderFreenectV2App_Prefix-euewguyctzrylwcbztgxfvricnzo/CinderFreenectV2App_Prefix.pch.pch36"013CEBD7-86D8-4352-A7DA-E8A089CEF3CC-
+bB2FAA0FD-0FD0-4745-9884-23900C94EC5E
+
+CTouch /Users/vgusev/repos/Cinder/blocks/Cinder-FreenectV2/samples/CinderFreenectV2App/xcode/build/Debug/CinderFreenectV2App.app
+r0
+
